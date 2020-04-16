@@ -57,18 +57,27 @@ export const Pokemon = styled.div`
 
 export const Image = styled.img``;
 
-export const Id = styled.p``;
+export const Id = styled.p`
+  margin-top: 10px;
+`;
 
-export const Name = styled.p``;
+export const Name = styled.p`
+  margin-top: 5px;
+`;
 
 export const Type = styled.div`
   display: flex;
+  margin-top: 5px;
 `;
 
 export const TypeText = styled.p`
   margin-left: 5px;
 `;
 
-export const Height = styled.p``;
+export const Height = styled.p`
+  margin-top: 5px;
+`;
 
-export const Weight = styled.p``;
+export const Weight = styled.p`
+  margin-top: 5px;
+`;
